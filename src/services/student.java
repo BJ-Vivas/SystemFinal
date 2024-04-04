@@ -78,6 +78,10 @@ public void addStudent (UserDAO userdao){
     }
 
 public void populatetable (DefaultTableModel model){
+        
+    
+    
+    
         try {
             
             model.setRowCount(0);
