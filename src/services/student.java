@@ -95,8 +95,7 @@ public void populatetable (DefaultTableModel model){
                     row [i-1] = rs.getObject(i);
                 }
                 
-                model.addRow(row);
-                
+                model.addRow(row);    
             }
             
         } catch (Exception e){
